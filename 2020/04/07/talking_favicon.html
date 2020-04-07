@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<link rel="icon" id="i" />
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body
+    onload="setInterval(_=>i.href=`data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='16'>${[...'😮😀😁😐😑😬'][++x%6]}</text></svg>`,x=9)"
+  >
+    <h1>256 字节实现会说话的图标（请看网页标题）</h1>
+    <h2>
+      源码来自：
+      <a href="https://twitter.com/aemkei/status/1242211870448259072"
+        >Martin Kleppe 的 Twitter</a
+      >
+    </h2>
+    <blockquote class="twitter-tweet">
+      <p lang="en" dir="ltr">
+        The talking favicon in 256 bytes:<a href="https://t.co/DpGnPe5OTy"
+          >https://t.co/DpGnPe5OTy</a
+        ><br /><br />Source:<br /><br />&lt;link rel=icon id=i&gt;<br />&lt;body
+        onload=&quot;setInterval(_=&gt;i.href=`data:image/svg+xml,&lt;svg
+        xmlns=%27http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 16
+        16&#39;&gt;&lt;text
+        y=&#39;16&#39;&gt;${[...&#39;😮😀😁😐😑😬&#39;][++x%6]}&lt;/text&gt;&lt;/svg&gt;`,x=9)&quot;&gt;
+        <a href="https://t.co/0RlhqeluId">pic.twitter.com/0RlhqeluId</a>
+      </p>
+      &mdash; Martin Kleppe (@aemkei)
+      <a
+        href="https://twitter.com/aemkei/status/1242211870448259072?ref_src=twsrc%5Etfw"
+        >March 23, 2020</a
+      >
+    </blockquote>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+  </body>
+</html>
